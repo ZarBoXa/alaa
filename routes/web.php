@@ -28,6 +28,10 @@ Route::post('users/test', function (Request $request) {
   return Request::all();
 });
 
+Route::post('test', function (Request $request) {
+  return 'I did it';
+});
+
 
 
 Route::get('/', function () {
