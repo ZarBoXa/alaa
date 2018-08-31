@@ -24,6 +24,10 @@ Route::post('users/create', function (Request $request) {
   return Request::all();
 });
 
+Route::post('users/test', function (Request $request) {
+  return Request::all();
+});
+
 
 
 Route::get('/', function () {
